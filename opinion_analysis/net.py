@@ -3,7 +3,6 @@ from keras.layers import Dense, Embedding, Input
 from keras.layers import Conv1D, GlobalMaxPool1D, Dropout
 from tensorflow.keras.utils import plot_model
 import matplotlib.pyplot as plt
-# from keras.utils import plot_model
 from tensorflow.keras.utils import plot_model
 from IPython.display import Image
 
@@ -36,21 +35,7 @@ def CNN(input_dim,
 
 if __name__ == '__main__':
     model = CNN(input_dim=10, input_length=10, vec_size=10, output_shape=10)
-    #input_shape：即张量的shape。从前往后对应由外向内的维度。
-    #input_length：代表序列长度，可以理解成有多少个样本
-    #input_dim：代表张量的维度，（很好理解，之前3个例子的input_dim分别为2,3,1）
-
 
     model.summary()
-    # plot_model(model, to_file='cnn_model.png', show_shapes=True, show_layer_names=True)
-    #
-    # # Display the model architecture using Matplotlib
-    # img = plt.imread('cnn_model.png')
-    # plt.figure(figsize=(10, 10))
-    # plt.imshow(img)
-    # plt.show()
 
-    plot_model(model, to_file='model.png', show_shapes=True)
-
-    # 显示模型结构图
-    Image('model.png')
+ 
