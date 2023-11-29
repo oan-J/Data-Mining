@@ -1,6 +1,5 @@
 import jieba
 from keras.preprocessing.text import Tokenizer
-# from keras.utils import pad_sequences
 from keras_preprocessing.sequence import pad_sequences
 
 import numpy as np
@@ -9,7 +8,7 @@ jieba.setLogLevel('WARN')
 class DataPreprocess():
     def __init__(self, tokenizer=None,
                  label_set=None):
-        self.tokenizer = tokenizer  #词法分析
+        self.tokenizer = tokenizer  
         self.num_words = None
         #the maximum number of words to keep, based on word frequency. Only the most common num_words-1 words will be kept.
         self.label_set = label_set
@@ -20,7 +19,6 @@ class DataPreprocess():
 
         if word_len > 1:
             texts_cut = [[word for word in jieba.lcut(text) if len(word) >= word_len] for text in texts]
-            #jieba.lcut 分词 返回list
         else:
             texts_cut = [jieba.lcut(one_text) for one_text in texts]
 
@@ -28,7 +26,7 @@ class DataPreprocess():
 
         return texts_cut
 
-    def train_tokenizer(self,               #训练词法分析
+    def train_tokenizer(self,               
                         texts_cut=None,
                         num_words=2000):
 
