@@ -49,8 +49,8 @@ Before you start, make sure you have the following:
    - Example result:
   
      
-     <img src="https://github.com/oan-J/Data-Mining/blob/main/img/loss.png" alt="loss pic width="300">
+     <img src="https://github.com/oan-J/Data-Mining/blob/main/img/loss.png" alt="loss pic" width="300">
   
      
-     <img src="https://github.com/oan-J/Data-Mining/blob/main/img/acc.png" alt="acc pic width="300">
+     <img src="https://github.com/oan-J/Data-Mining/blob/main/img/acc.png" alt="acc pic" width="300">
 
