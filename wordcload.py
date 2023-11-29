@@ -1,7 +1,7 @@
 from wordcloud import WordCloud  
 import jieba  
 def get_img():
-    data = open("area.txt", "r", encoding="utf-8").read()  
+    data = open("douyin.txt", "r", encoding="utf-8").read()  
     stop_word = set(open("./cn_stopwords.txt", encoding='utf-8').read().split()) 
     word_list = [w for w in jieba.cut(data)]
     # print("douyin succeed")
