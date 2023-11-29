@@ -41,9 +41,6 @@ class DataPreprocess():
 
         tokenizer = self.tokenizer
         texts_seq = tokenizer.texts_to_sequences(texts=texts_cut)
-        #Transforms each text in texts to a sequence of integers.
-        # Only top num_words-1 most frequent words will be taken into account.
-        # Only words known by the tokenizer will be taken into account.
         del texts_cut
 
         texts_pad_seq = pad_sequences(texts_seq,
