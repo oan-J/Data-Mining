@@ -2,7 +2,9 @@
 
 ## Overview
 
-Welcome to the Data-Mining repository! This project focuses on scraping 'Hysterical Literature' data from the Douyin platform and implementing a Convolutional Neural Network (CNN) classifier. The CNN is trained to distinguish 'Hysterical Literature' comments from other types.
+Welcome to the Data-Mining repository! The project is still in progress, stay tuned for additional uploads!
+
+This project focuses on scraping 'Hysterical Literature' data from the Douyin platform and implementing a Convolutional Neural Network (CNN) classifier. The CNN is trained to distinguish 'Hysterical Literature' comments from other types.
 
 
 ## Prerequisites
