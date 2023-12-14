@@ -138,10 +138,11 @@ Before you start, make sure you have the following:
      <figure>
   <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
   <figcaption>simple prompt finetuning loss pic</figcaption>
+  <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="simple prompt finetuning loss pic" width="300">
+  <figcaption>categorized prompt finetuning loss pic</figcaption>
 </figure>
 
-     ![categorized prompt finetuning loss pic](https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png)
-*categorized prompt finetuning loss pic*
+     
 
 
 
