@@ -21,7 +21,7 @@ Applied association rule mining techniques to uncover patterns and relationships
 
 ### 4. ChatGLM3 API Integration
 
-Integrated the ChatGLM3 API to categorize "Hysterical Literature" text, including scene recognition, emotion classification, emotion scoring, and severity scoring of the hysteria.
+Called the ChatGLM3 API to categorize "Hysterical Literature" text, including scene recognition, emotion classification, emotion scoring, and severity scoring of the hysteria.
 
 ### 5. Fine-tuning ChatGLM3
 
@@ -108,9 +108,9 @@ Before you start, make sure you have the following:
    - Replace the csv with your data in `opinion_analysis/demo.py`
    - Run `opinion_analysis/demo.py`
    - Current hyperparameter:
-       - Learning rate：0.001
-       - Epochs：15
-       - Batch size：128
+       - Learning rate=0.001
+       - Epochs=15
+       - Batch size=128
    - Example results:
   
      <img src="https://github.com/oan-J/Data-Mining/blob/main/img/loss.png" alt="loss pic" width="300">
@@ -123,16 +123,25 @@ Before you start, make sure you have the following:
    - Run `fpgrowth.py`
 
 
-6. **ChatGLM3 API Integration**
+6. **ChatGLM3 API Calling**
    - To categorize "Hysterical Literature" text using ChatGLM3 API, including scene recognition, emotion classification, emotion scoring, and severity scoring of the hysteria. 
    - Run `chatglm3-api&finetune/demo_crazy.py`
    - Example results:
    
    
-7. **Fine-tuning ChatGLM3**
+7. **ChatGLM3 Fine-tuning**
    - Prepare data for fine-tuning by running `chatglm3-api&finetune/process-data/step2_csv2jsonl-category.py` or `https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/process-data/step2_csv2jsonl-simple.py`. (prompt is different)
    - Check `chatglm3-api&finetune/ChatGLM3-main/finetune_chatmodel_demo` and fine-tune ChatGLM3.
-
+   - Current hyperparameter:
+       - LR=1e-4
+       - NUM_GPUS=4
+       - MAX_SOURCE_LEN=1024
+       - MAX_TARGET_LEN=128
+       - DEV_BATCH_SIZE=1
+       - GRAD_ACCUMULARION_STEPS=16
+       - MAX_STEP=500
+       - SAVE_INTERVAL=500
+   
    - Example results:
 <div style="text-align: center;">
   <figure>
