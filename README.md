@@ -49,6 +49,9 @@ The defense is broken! I really broke the guard! Just because of your word, I di
 
 ## Prerequisites
 
+ > A considerable amount of data processing is required during each task, and you may perform the necessary operations based on your specific requirements. This repository serves as a guideline and does not provide an exhaustive display of all the code for data processing, including tasks such as converting data formats, normalizing values, cleaning empty values, and so on.
+
+
 Before you start, make sure you have the following:
 
 - [chromedriver.exe](http://chromedriver.storage.googleapis.com/index.html): Download and place it in the current code path, based on your installed version of Google Chrome.
@@ -90,10 +93,27 @@ Before you start, make sure you have the following:
        - Batch size：128
    - Example result:
   
-     
      <img src="https://github.com/oan-J/Data-Mining/blob/main/img/loss.png" alt="loss pic" width="300">
   
      
      <img src="https://github.com/oan-J/Data-Mining/blob/main/img/acc.png" alt="acc pic" width="300">
 
-- [ ] todo
+5. **Association Rule Mining**
+   - To mine frequent itemsets using FP-Growth.
+   - Run `fpgrowth.py`
+
+
+6. **ChatGLM3 API Integration**
+   
+
+   
+7. **Fine-tuning ChatGLM3**
+
+
+
+
+# Acknowledgement
+
+This project utilizes code from the `chatglm3` library, which greatly contributed to categorizing and generating "Hysterical Literature" text.
+
+Link to `chatglm3` repository: [chatglm3](https://github.com/THUDM/ChatGLM3)
