@@ -171,7 +171,7 @@ Before you start, make sure you have the following:
 ### Full Finetuning with Simple Prompt
 
 #### Results
-- Result1: Fine-tuned ChatGLM3 is able to generate the specific type of hysterical literature.
+- Result1: Fine-tuned ChatGLM3 is able to generate the desired type of hysterical literature.
 - Result2: The generation of desired text has randomness and instability.
 
 #### Examples
@@ -197,6 +197,27 @@ Before you start, make sure you have the following:
 
 
 ### Full Finetuning with Categorized Prompt
+
+#### Results
+- Result1: Fine-tuned ChatGLM3 can generate different types of hysterical literature based on specified categories such as scene classification, emotion classification, emotion scoring, and severity scoring of hysteria.
+- Result2: The generation of desired text has randomness and instability.
+- Result3: The generated hysterical literature of designated scene classification and emotion classification is better.
+
+#### Examples
+<table>
+  <tr>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/category-scene.png" alt="Different Scene" width="300" /></td>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/category-emo-cate.png" alt="Different Emotion Category" width="300" /></td>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/category-emo-score.png" alt="Different Emotion Score" width="300" /></td>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/category-crazy-score.png" alt="Different Hysteria Score" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">Different Scene</td>
+    <td align="center" valign="bottom">Different Emotion Category</td>
+    <td align="center" valign="bottom">Different Emotion Score</td>
+    <td align="center" valign="bottom">Different Hysteria Score</td>
+  </tr>
+</table>
 
 
 ### Generalization Ability
