@@ -147,45 +147,77 @@ Before you start, make sure you have the following:
        - SAVE_INTERVAL=500
    
    - Example results:
-<div style="text-align: center;">
-  <figure>
-    <table>
-      <tr>
-        <td style="text-align: center;">
-          <table>
-            <tr>
-              <td>
-                <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: center;">
-                <figcaption style="font-size:small; color:grey;">simple prompt finetuning loss pic</figcaption>
-              </td>
-            </tr>
-          </table>
-        </td>
-        <td style="text-align: center;">
-          <table>
-            <tr>
-              <td>
-                <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="categorized prompt finetuning loss pic" width="300">
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: center;">
-                <figcaption style="font-size:small; color:grey;">categorized prompt finetuning loss pic</figcaption>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </figure>
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="categorized prompt finetuning loss pic" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <figcaption style="font-size:small; color:grey;">simple prompt finetuning loss pic</figcaption>
+    </td>
+    <td align="center" valign="bottom">
+      <figcaption style="font-size:small; color:grey;">categorized prompt finetuning loss pic</figcaption>
+    </td>
+  </tr>
+</table>
 
-## Capability testing of the finetuned chatglm3
-   -[] add pic
+## Capability Testing of the Finetuned ChatGLM3
+
+### Full Finetuning with Simple Prompt
+
+#### Results
+- Result1: Fine-tuned ChatGLM3 is able to generate the specific type of hysterical literature.
+- Result2: The generation of desired text has randomness and instability.
+
+#### Examples
+<table>
+  <tr>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/simple-before.png" alt="Before finetuning" width="300" /></td>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/simple-after.png" alt="After finetuning" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">Before Finetuning</td>
+    <td align="center" valign="bottom">After Finetuning</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/simple-good.png" alt="Desired Result" width="300" /></td>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/simple-bad.png" alt="Unstable Result" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">Desired Result</td>
+    <td align="center" valign="bottom">Unstable Result</td>
+  </tr>
+</table>
+
+
+
+### Full Finetuning with Categorized Prompt
+
+
+### Generalization Ability
+
+#### Results
+- Results1: The fine-tuned ChatGLM3 model has the capability to expanding normal text and transform it into the hysterical literature version of text
+- Results2: The generation of desired text has randomness and instability.
+
+#### Examples
+<table>
+  <tr>
+    <td><img src="https://github.com/oan-J/Data-Mining/blob/main/img/finetune-pic/generalize.png" alt="Generalization ability" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">Generalization ability</td>
+  </tr>
+</table>
+
+
+
+
 
 ## Acknowledgement
 
