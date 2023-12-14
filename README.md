@@ -131,6 +131,9 @@ Before you start, make sure you have the following:
    
 7. **ChatGLM3 Fine-tuning**
    - Prepare data for fine-tuning by running `chatglm3-api&finetune/process-data/step2_csv2jsonl-category.py` or `https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/process-data/step2_csv2jsonl-simple.py`. (prompt is different)
+     > Simple Data may look like: {"prompt": "生成一段发疯文学", "response": "我起床了 这个点起床的人 是未来之星 是国家栋梁 是都市小说里的商业大鳄 是吾日三省吾身的自律者 是相亲节目里的心动嘉宾 是自然界的丛林之王 是世间所有丑与恶的唾弃者 是世间所以美与好的创造者"}
+     > Categorized Data may look like: {"prompt": "生成一段发疯文学，场景为早晨，情感分类为自律，情感打分为80.0，发疯程度为20.0", "response": "我起床了 这个点起床的人 是未来之星 是国家栋梁 是都市小说里的商业大鳄 是吾日三省吾身的自律者 是相亲节目里的心动嘉宾 是自然界的丛林之王 是世间所有丑与恶的唾弃者 是世间所以美与好的创造者"}
+
    - Check `chatglm3-api&finetune/ChatGLM3-main/finetune_chatmodel_demo` and fine-tune ChatGLM3.
    - Current hyperparameter:
        - LR=1e-4
