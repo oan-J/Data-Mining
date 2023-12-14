@@ -111,7 +111,7 @@ Before you start, make sure you have the following:
        - Learning rate：0.001
        - Epochs：15
        - Batch size：128
-   - Example result:
+   - Example results:
   
      <img src="https://github.com/oan-J/Data-Mining/blob/main/img/loss.png" alt="loss pic" width="300">
   
@@ -126,16 +126,31 @@ Before you start, make sure you have the following:
 6. **ChatGLM3 API Integration**
    - To categorize "Hysterical Literature" text using ChatGLM3 API, including scene recognition, emotion classification, emotion scoring, and severity scoring of the hysteria. 
    - Run `chatglm3-api&finetune/demo_crazy.py`
-
+   - Example results:
+   
    
 7. **Fine-tuning ChatGLM3**
    - Prepare data for fine-tuning by running `chatglm3-api&finetune/process-data/step2_csv2jsonl-category.py` or `https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/process-data/step2_csv2jsonl-simple.py`. (prompt is different)
    - Check `chatglm3-api&finetune/ChatGLM3-main/finetune_chatmodel_demo` and fine-tune ChatGLM3.
 
+   - Example results:
+
+     <figure>
+  <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
+  <figcaption>simple prompt finetuning loss pic</figcaption>
+</figure>
+
+     <figure>
+      <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="categorized prompt finetuning loss pic" width="300">
+<figcaption>categorized prompt finetuning loss pic</figcaption>
+</figure>
 
 
-# Acknowledgement
 
-This project utilizes code from the `chatglm3` library, which greatly contributed to categorizing and generating "Hysterical Literature" text.
 
-Link to `chatglm3` repository: [chatglm3](https://github.com/THUDM/ChatGLM3)
+
+## Acknowledgement
+
+This project utilizes code from the `ChatGLM3` library, which greatly contributed to categorizing and generating "Hysterical Literature" text.
+
+Link to `ChatGLM3` repository: [chatglm3](https://github.com/THUDM/ChatGLM3)
