@@ -49,7 +49,7 @@ The defense is broken! I really broke the guard! Just because of your word, I di
 
 ## Prerequisites
 
- > A considerable amount of data processing is required during each task, and you may perform the necessary operations based on your specific requirements. This repository serves as a guideline and does not provide an exhaustive display of all the code for data processing, including tasks such as converting data formats, normalizing values, cleaning empty values, and so on.
+ > A considerable amount of data processing is required during each task, and you may perform the necessary operations based on your specific requirements. This repository serves as a guideline and does not provide an exhaustive display of all the code for data processing, including tasks such as converting data formats, normalizing values, cleaning empty values, and so on. You may check my code in chatglm3-api&finetune/process-data for some reference.
 
 
 Before you start, make sure you have the following:
@@ -124,11 +124,13 @@ Before you start, make sure you have the following:
 
 
 6. **ChatGLM3 API Integration**
-   
+   - To categorize "Hysterical Literature" text using ChatGLM3 API, including scene recognition, emotion classification, emotion scoring, and severity scoring of the hysteria. 
+   - Run `chatglm3-api&finetune/demo_crazy.py`
 
    
 7. **Fine-tuning ChatGLM3**
-
+   - Prepare data for fine-tuning by running `chatglm3-api&finetune/process-data/step2_csv2jsonl-category.py` or `https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/process-data/step2_csv2jsonl-simple.py`. (prompt is different)
+   - Check `chatglm3-api&finetune/ChatGLM3-main/finetune_chatmodel_demo` and fine-tune ChatGLM3.
 
 
 
