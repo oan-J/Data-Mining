@@ -69,17 +69,24 @@ Before you start, make sure you have the following:
       - `font.ttf`: The font file for the word cloud.
 
 
-- Refer to [chatglm3](https://github.com/THUDM/ChatGLM3/blob/main/README_en.md#how-to-use) if you've never used it. Make sure you have ChatGLM3 successfully deployed.
+- Refer to [ChatGLM3](https://github.com/THUDM/ChatGLM3/blob/main/README_en.md#how-to-use) and [ChatGLM3 Finetuning](https://github.com/THUDM/ChatGLM3/tree/main/finetune_chatmodel_demo)if you've never used it. Make sure you have ChatGLM3 successfully deployed.
 
-```bash
-git clone https://github.com/THUDM/ChatGLM3
-cd ChatGLM3
-pip install -r requirements.txt
-```
+      - python>=3.10  (so as to finetune ChatGLM3)
+  
+    ```bash
+    git clone https://github.com/THUDM/ChatGLM3
+    cd ChatGLM3
+    pip install -r requirements.txt
+    ```
 
-```bash
-git clone https://huggingface.co/THUDM/chatglm3-6b
-```
+    ```bash
+    git clone https://huggingface.co/THUDM/chatglm3-6b
+    ```
+    
+    ```bash
+    cd finetune_chatmodel_demo
+    pip install requirements.txt
+    ```
 
 
 ## Instructions
