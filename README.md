@@ -134,17 +134,42 @@ Before you start, make sure you have the following:
    - Check `chatglm3-api&finetune/ChatGLM3-main/finetune_chatmodel_demo` and fine-tune ChatGLM3.
 
    - Example results:
-
-     <figure>
-  <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
-  <figcaption>simple prompt finetuning loss pic</figcaption>
-  <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="simple prompt finetuning loss pic" width="300">
-  <figcaption>categorized prompt finetuning loss pic</figcaption>
-</figure>
-
-     
-
-
+<div style="text-align: center;">
+  <figure>
+    <table>
+      <tr>
+        <td style="text-align: center;">
+          <table>
+            <tr>
+              <td>
+                <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature-20231210-222338-1e-4_loss.png" alt="simple prompt finetuning loss pic" width="300">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;">
+                <figcaption style="font-size:small; color:grey;">simple prompt finetuning loss pic</figcaption>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align: center;">
+          <table>
+            <tr>
+              <td>
+                <img src="https://github.com/oan-J/Data-Mining/blob/main/chatglm3-api%26finetune/visualize_train_log/train-crazy_literature_with_scene_and_rate-20231212-080910-1e-4.log_loss.png" alt="categorized prompt finetuning loss pic" width="300">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;">
+                <figcaption style="font-size:small; color:grey;">categorized prompt finetuning loss pic</figcaption>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </figure>
+</div>
 
 
 ## Acknowledgement
