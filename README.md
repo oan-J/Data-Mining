@@ -67,7 +67,10 @@ Before you start, make sure you have the following:
       - `cn_stopwords.txt`: The file containing Chinese stopwords for data cleaning.
   
       - `font.ttf`: The font file for the word cloud.
-- [ ] todo
+
+- Refer to [chatglm3](https://github.com/THUDM/ChatGLM3/blob/main/README_en.md#how-to-use) if you've never used it.
+
+      - Make sure you have ChatGLM3 successfully deployed.
 
 ## Instructions
 
